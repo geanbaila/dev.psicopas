@@ -317,8 +317,7 @@
                         <div class="col-lg-6">
                            <div class="services-tab-content">
                               <div class="services-content-image">
-                                 <!--<img src="assets/images/services/flower.jpg" alt="image">-->
-                                 <img src="flower-amarillo.png" alt="image">
+                                 <img src="assets/images/services/flower-amarillo.png" alt="image">
                                  <h4 class="sub-title">Conversatorios</h4>
                               </div>
                               <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -361,8 +360,7 @@
                         <div class="col-lg-6">
                            <div class="services-tab-content">
                               <div class="services-content-image">
-                                 <!--<img src="assets/images/services/flower.jpg" alt="image">-->
-                                 <img src="flower-amarillo.png" alt="image">
+                                 <img src="assets/images/services/flower-amarillo.png" alt="image">
                                  <h4 class="sub-title">Salud mental</h4>
                               </div>
                               <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -405,8 +403,7 @@
                         <div class="col-lg-6">
                            <div class="services-tab-content">
                               <div class="services-content-image">
-                                 <!--<img src="assets/images/services/flower.jpg" alt="image">-->
-                                 <img src="flower-amarillo.png" alt="image">
+                                 <img src="assets/images/services/flower-amarillo.png" alt="image">
                                  <h4 class="sub-title">Talleres gratuitos</h4>
                               </div>
                               <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -759,20 +756,23 @@
       <div class="go-top">
          <i class='flaticon-up-arrow'></i>
       </div>
-      <script data-cfasync="false" src="https://templates.envytheme.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.min.js"></script>
+      <script>
+         !function(){"use strict";function e(e){try{if("undefined"==typeof console)return;"error"in console?console.error(e):console.log(e)}catch(e){}}function t(e){return d.innerHTML='<a href="'+e.replace(/"/g,"&quot;")+'"></a>',d.childNodes[0].getAttribute("href")||""}function r(e,t){var r=e.substr(t,2);return parseInt(r,16)}function n(n,c){for(var o="",a=r(n,c),i=c+2;i<n.length;i+=2){var l=r(n,i)^a;o+=String.fromCharCode(l)}try{o=decodeURIComponent(escape(o))}catch(u){e(u)}return t(o)}function c(t){for(var r=t.querySelectorAll("a"),c=0;c<r.length;c++)try{var o=r[c],a=o.href.indexOf(l);a>-1&&(o.href="mailto:"+n(o.href,a+l.length))}catch(i){e(i)}}function o(t){for(var r=t.querySelectorAll(u),c=0;c<r.length;c++)try{var o=r[c],a=o.parentNode,i=o.getAttribute(f);if(i){var l=n(i,0),d=document.createTextNode(l);a.replaceChild(d,o)}}catch(h){e(h)}}function a(t){for(var r=t.querySelectorAll("template"),n=0;n<r.length;n++)try{i(r[n].content)}catch(c){e(c)}}function i(t){try{c(t),o(t),a(t)}catch(r){e(r)}}var l="/cdn-cgi/l/email-protection#",u=".__cf_email__",f="data-cfemail",d=document.createElement("div");i(document),function(){var e=document.currentScript||document.scripts[document.scripts.length-1];e.parentNode.removeChild(e)}()}();
+      </script>
+      <script src="assets/js/jquery.min.js"></script>
       <script src="assets/js/bootstrap.bundle.min.js"></script>
       <script src="assets/js/jquery.meanmenu.js"></script>
       <script src="assets/js/owl.carousel.min.js"></script>
       <script src="assets/js/jquery.appear.js"></script>
-      <script src="assets/js/odometer.min.js"></script>
+      
       <script src="assets/js/slick.min.js"></script>
       <script src="assets/js/nice-select.min.js"></script>
+
       <script src="assets/js/jquery.magnific-popup.min.js"></script>
       <script src="assets/js/fancybox.min.js"></script>
       <script src="assets/js/jquery.ajaxchimp.min.js"></script>
       <script src="assets/js/form-validator.min.js"></script>
-      <script src="assets/js/contact-form-script.js"></script>
-      <script src="assets/js/wow.min.js"></script>
+      
       <script src="assets/js/main.js"></script>
    </body>
 </html>
